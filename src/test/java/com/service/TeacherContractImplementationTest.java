@@ -35,7 +35,6 @@ class TeacherContractImplementationTest {
 
         //when we call the method
 
-
         String actualResult = teacherContractImplementation.canTeachACourse(teacher);
 
         //then let us assert if expectedResult == actualResult

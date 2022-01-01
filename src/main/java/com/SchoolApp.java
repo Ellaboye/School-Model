@@ -23,16 +23,16 @@ public class SchoolApp {
         courseList.add(english);
         courseList.add(physics);
 
-        Student student = new Student("mercy","ajibobo",24,"first class",true, courseList);
+        Student student = new Student("mercy","ajibobo",24,"first class",false, courseList);
         Applicant applicant = new Applicant("Stella","Ajibobo",25,78);
 
         PrincipalContractImplementation principal = new PrincipalContractImplementation();
 
-        System.out.println();
+        //System.out.println();
         System.out.println(principal.expelStudent(student));
-        System.out.println();
+        //System.out.println();
         System.out.println(principal.admitApplicant(applicant));
-        System.out.println();
+        //System.out.println();
 //            student.getListOfCourses().stream().map(x -> x.getCourseName()).forEach(System.out::println);
 
     }
